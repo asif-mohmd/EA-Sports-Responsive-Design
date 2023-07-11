@@ -3,7 +3,14 @@
     font-family: "Futura", sans-serif;
 }
 
+@media (max-width: 575px) {
+    .nav-img{
+        margin-top: 50px;
+    }
 
+}
+    
 .nav-img{
     max-width: 100%;
 }
+
