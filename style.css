@@ -2,3 +2,8 @@
     box-sizing: border-box;
     font-family: "Futura", sans-serif;
 }
+
+
+.nav-img{
+    max-width: 100%;
+}
