@@ -1,0 +1,16 @@
+.section-1-main{
+    background-color: #e20f0f;
+   
+    height: 100px;
+    width: 100%;
+    
+    display: flex;
+
+}
+
+.section-2-main{
+    background-color: #f61f1f;
+    height: 100px;
+    width: 100%;
+
+}
