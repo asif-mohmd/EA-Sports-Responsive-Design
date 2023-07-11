@@ -1,0 +1,26 @@
+.space-fix {
+    margin-left: 5%;
+}
+
+.nav-item a {
+    color: black !important;
+    border-radius: 8px !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    border-radius: 8px;
+    opacity: .7;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.nav-item a:hover {
+ 
+    background-color: rgb(225, 235, 235);
+    border-radius: 8px !important;
+    margin-bottom: 1px;
+
+}
