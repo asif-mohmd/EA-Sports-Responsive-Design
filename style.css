@@ -2,3 +2,13 @@
     box-sizing: border-box;
     font-family: "Futura", sans-serif;
 }
+.nav-img-1{
+ 
+   max-width: 100%;
+
+}
+.nav-text{
+    color: #fff;
+    position: absolute;
+    position: center;
+}
