@@ -1,9 +1,8 @@
-
 /* Section 2 main contents */
 
-.sec-2{
+.sec-2 {
     background-color: #F2F3F4;
-    
+
 }
 
 .sec-2-tabs {
@@ -43,43 +42,48 @@ ul#tabs {
     list-style-type: none;
     padding: 0;
     text-align: center;
-    
+
 
 }
+
 ul#tabs li {
     display: inline-block;
     background-color: #F2F3F4;
-    
+
     padding: 5px 23px;
     margin-bottom: -10px;
     color: black;
     cursor: pointer;
 }
+
 ul#tabs li:hover {
     background-color: #DFDFDE;
 }
+
 ul#tabs li.active {
     background-color: #DFDFDE;
     border-bottom: solid 3px #276AFC;
-    
-    
-   
+
+
+
 }
+
 ul#tab {
     list-style-type: none;
     margin: 0;
     border-top: solid 3px #E1E1E1;
     padding: 5px 20px;
-  
-   
+
+
 }
+
 ul#tab li {
     display: none;
-    
+
 }
+
 ul#tab li.active {
     display: block;
 }
 
 /* codepen code ends */
-
