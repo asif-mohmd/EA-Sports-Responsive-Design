@@ -1,33 +1,88 @@
+/* Section 2 main contents */
+
+.section-2-main {
+    background-color: #F2F3F4;
+    min-height: 20px;
+}
+
+.sec-2{
+    background-color: #F2F3F4;
+}
+
+.sec-2-tabs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+.card-style:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2f3d81;
+}
+
+.card-style:hover .overlay {
+    opacity: 0.6;
+}
+
+
+
+/* Section 2 main contents ends here */
+
+
+/* codepen code */
 ul#tabs {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    
 
 }
 ul#tabs li {
     display: inline-block;
-    background-color: #1D1F20;
-    border-bottom: solid 5px #238b68;
-    padding: 5px 20px;
+    background-color: #F2F3F4;
+    
+    padding: 5px 23px;
     margin-bottom: -10px;
-    color: #fff;
+    color: black;
     cursor: pointer;
 }
 ul#tabs li:hover {
-    background-color: #238b68;
+    background-color: #DFDFDE;
 }
 ul#tabs li.active {
-    background-color: #238b68;
+    background-color: #DFDFDE;
+    border-bottom: solid 3px #276AFC;
+    
+    
+   
 }
 ul#tab {
     list-style-type: none;
     margin: 0;
-   border: solid 1px #238b68;
+   border: solid 2px #E1E1E1;
     padding: 5px 20px;
 }
 ul#tab li {
     display: none;
+    
 }
 ul#tab li.active {
     display: block;
 }
+
+/* codepen code ends */
