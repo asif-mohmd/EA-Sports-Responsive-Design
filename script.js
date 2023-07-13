@@ -1,3 +1,5 @@
+
+// section 2 tabs JS starts
 $(document).ready(function(){
     $("ul#tabs li").click(function(e){
         if (!$(this).hasClass("active")) {
@@ -10,3 +12,11 @@ $(document).ready(function(){
         }
     });
 });
+
+// section 2 tabs JS ends
+
+
+function geekAlert() {
+    alert("An Online Computer Science"
+                + "Portal for Geeks");
+}

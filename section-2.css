@@ -1,19 +1,15 @@
-/* Section 2 main contents */
 
-.section-2-main {
-    background-color: #F2F3F4;
-    min-height: 20px;
-}
+/* Section 2 main contents */
 
 .sec-2{
     background-color: #F2F3F4;
+    
 }
 
 .sec-2-tabs {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-   
 }
 
 .card-style:hover {
@@ -38,8 +34,6 @@
 .card-style:hover .overlay {
     opacity: 0.6;
 }
-
-
 
 /* Section 2 main contents ends here */
 
@@ -74,8 +68,10 @@ ul#tabs li.active {
 ul#tab {
     list-style-type: none;
     margin: 0;
-   border-top: solid 3px #E1E1E1;
+    border-top: solid 3px #E1E1E1;
     padding: 5px 20px;
+  
+   
 }
 ul#tab li {
     display: none;
@@ -86,3 +82,4 @@ ul#tab li.active {
 }
 
 /* codepen code ends */
+

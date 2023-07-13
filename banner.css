@@ -1,0 +1,72 @@
+/*  banner*/
+
+
+.banner-1{
+    background-color: #F2F3F4;
+    position: relative;
+    
+ }
+ 
+ .banner-1 .btn {
+     position: absolute;
+     top: 70%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #ffffff;
+     color: rgb(0, 0, 0);
+     font-size: 16px;
+     padding: 12px 24px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     text-align: center;
+   }
+ 
+   .banner-1 .btn:hover {
+     background-color: #b8c3cc;
+   }
+ 
+   @media (max-width:1328px) {
+     .banner-1 .btn {
+         position: absolute;
+         top: 60%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         background-color: #ffffff;
+         color: rgb(0, 0, 0);
+         font-size: 12px;
+         padding: 10px 20px;
+         border: none;
+         cursor: pointer;
+         border-radius: 5px;
+         text-align: center;
+       }
+     
+       .banner-1 .btn:hover {
+         background-color: #b8c3cc;
+       }
+   }
+ 
+   @media (max-width:730px) {
+     .banner-1 .btn {
+         position: absolute;
+         top: 60%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         background-color: #ffffff;
+         color: rgb(0, 0, 0);
+         font-size: 8px;
+         padding: 8px 16px;
+         border: none;
+         cursor: pointer;
+         border-radius: 5px;
+         text-align: center;
+       }
+     
+       .banner-1 .btn:hover {
+         background-color: #b8c3cc;
+       }
+   }
