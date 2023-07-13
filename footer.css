@@ -59,6 +59,10 @@
 .icon-style:hover {
     transform: scale(1.1);
 }
+.footer-copyright {
+    text-align: center;
+
+}
 
 /* Media Query for screens with max width 767px */
 @media (max-width: 767px) {
@@ -67,10 +71,7 @@
         margin: 0 auto;
     }
 
-    .footer-copyright {
-        text-align: center;
-
-    }
+  
 
 
 }
