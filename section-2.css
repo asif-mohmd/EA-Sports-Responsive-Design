@@ -74,7 +74,7 @@ ul#tabs li.active {
 ul#tab {
     list-style-type: none;
     margin: 0;
-   border: solid 2px #E1E1E1;
+   border-top: solid 3px #E1E1E1;
     padding: 5px 20px;
 }
 ul#tab li {
