@@ -2,7 +2,6 @@
 
 .sec-2 {
     background-color: #F2F3F4;
-
 }
 
 .sec-2-tabs {
@@ -37,12 +36,11 @@
 /* Section 2 main contents ends here */
 
 
-/* codepen code */
+/* codepen code (Tab changing) */
 ul#tabs {
     list-style-type: none;
     padding: 0;
     text-align: center;
-
 
 }
 
