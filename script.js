@@ -16,7 +16,34 @@ $(document).ready(function () {
 // section 2 tabs JS ends
 
 
-function geekAlert() {
-    alert("An Online Computer Science"
-        + "Portal for Geeks");
-}
+
+function showAlert() {
+    var overlay = document.createElement("div");
+    overlay.className = "alert-overlay";
+  
+    var alertBox = document.createElement("div");
+    alertBox.className = "alert-box";
+  
+    var title = document.createElement("div");
+    title.className = "alert-title";
+    title.textContent = "Alert Title";
+  
+    var message = document.createElement("div");
+    message.className = "alert-message";
+    message.textContent = "Currently not available.";
+  
+    var closeButton = document.createElement("button");
+    closeButton.className = "alert-button";
+    closeButton.textContent = "Close";
+    closeButton.addEventListener("click", function() {
+      document.body.removeChild(overlay);
+    });
+  
+    alertBox.appendChild(title);
+    alertBox.appendChild(message);
+    alertBox.appendChild(closeButton);
+  
+    overlay.appendChild(alertBox);
+    document.body.appendChild(overlay);
+  }
+  
