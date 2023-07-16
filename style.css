@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Futura", sans-serif;
-
 }
 
 body {
@@ -16,13 +15,11 @@ body {
   .nav-img {
     margin-top: 50px;
   }
-
 }
 
 .nav-img {
   max-width: 100%;
 }
-
 
 /* CSS for the custom alert */
 
