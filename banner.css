@@ -1,9 +1,9 @@
 /*  banner*/
-
 .banner-1 {
     background-color: #F2F3F4;
     position: relative;
 }
+
 
 .banner-1 .btn {
     position: absolute;
@@ -21,9 +21,11 @@
     text-align: center;
 }
 
+
 .banner-1 .btn:hover {
     background-color: #b8c3cc;
 }
+
 
 @media (max-width:1328px) {
     .banner-1 .btn {
@@ -45,6 +47,7 @@
         background-color: #b8c3cc;
     }
 }
+
 
 @media (max-width:730px) {
     .banner-1 .btn {
