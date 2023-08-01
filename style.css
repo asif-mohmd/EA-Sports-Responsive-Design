@@ -24,6 +24,7 @@ body {
 /* CSS for the custom alert */
 
 .alert-overlay {
+
   position: fixed;
   top: 0;
   left: 0;
@@ -36,6 +37,7 @@ body {
 }
 
 .alert-box {
+  
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
