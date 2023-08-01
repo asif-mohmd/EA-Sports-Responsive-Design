@@ -16,6 +16,7 @@ $(document).ready(function () {
 // section 2 tabs JS ends
 
 function showAlert() {
+    
     var overlay = document.createElement("div");
     overlay.className = "alert-overlay";
   

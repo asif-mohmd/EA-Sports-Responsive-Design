@@ -6,6 +6,7 @@
 
 
 .banner-1 .btn {
+    
     position: absolute;
     top: 70%;
     left: 50%;
@@ -28,6 +29,7 @@
 
 
 @media (max-width:1328px) {
+
     .banner-1 .btn {
         position: absolute;
         top: 60%;
@@ -50,6 +52,7 @@
 
 
 @media (max-width:730px) {
+
     .banner-1 .btn {
         position: absolute;
         top: 60%;
